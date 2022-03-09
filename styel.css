@@ -1,0 +1,54 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.container {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 400px;
+}
+
+.board {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+   
+    background-color: wheat;
+}
+
+.slider:hover {
+    opacity: 1; /* Fully shown on mouse-over */
+  }
+
+button {
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 5px;
+}
+
+.selected {
+    color: white;;
+    background-color: black;
+}
+
+
+
+
+
+
